@@ -16,3 +16,18 @@
 2. 忽略異常值
 3. 採用核函數處理
 
+## reference 3
+1. 對於SVM，最重要的是要理解，其原理就是在其最近的資料點vector附近，建構一個距每一點最遠距離的超平面。
+
+
+## reference 4
+>[實作二元SVM分類器](https://medium.com/@ZhengLungWu/%E5%AF%A6%E4%BD%9C%E4%BA%8C%E5%85%83svm%E5%88%86%E9%A1%9E%E5%99%A8-68d551716de3)
+
+
+
+
+
+
+
+
+
