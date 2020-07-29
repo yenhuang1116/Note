@@ -8,4 +8,5 @@
 2. Make in bsdiff folder : undefined reference to BZ2_bzWriteOpen 
     -> 編譯 bzip2 的 so檔, 加入 /usr/lib, /sbin/ldconfig
     -> makefile 的選項 LIBS = -lbz
+3. 版本間不相容, 不同版本間的 patchfile 會造成 Corrupt
 
