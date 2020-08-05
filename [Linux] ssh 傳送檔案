@@ -1,0 +1,11 @@
+# Linux shell command : scp
+
+>[參考連結](https://www.opencli.com/linux/ssh-transfer-file-scp)
+
+1. 傳送單一檔案
+    `$ scp path/file_name pi@192.168.50.19:/home/pi/bsdiff-dev/ `
+
+2. 傳送資料夾內所有檔案以及子資料夾
+
+    ` $ scp -r path/directory user@server_host:/path/target_directory `
+    
