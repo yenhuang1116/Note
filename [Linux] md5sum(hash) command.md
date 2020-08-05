@@ -3,7 +3,7 @@
 >[參考連結](https://blog.gtwang.org/linux/generate-verify-check-files-md5-sha1-checksum-linux/)
 
 1. 產生檔案的雜湊值
-    `$ md5sum target.txt > hash.md5sum `
+    `$ md5sum alpine-3.9.6.tar > hash.md5sum `
 
 2. 自動進行檔案的 MD5 校驗碼比對
 
