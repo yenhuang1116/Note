@@ -9,3 +9,6 @@
 
     ` $ scp -r path/directory user@server_host:/path/target_directory `
     
+3. 傳送檔案過大, 造成 Broken pipe
+
+    ` $ scp -o TCPKeepAlive=yes -o ServerAliveInterval=300 -r path/directory user@server_host:/path/target_directory `
