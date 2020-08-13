@@ -1,4 +1,4 @@
-``
+```
 void tros(int* in, int n){
 	int k=0;
 	char isChange = -1;
@@ -17,4 +17,4 @@ void tros(int* in, int n){
 	}
 }
 
-``
+```
