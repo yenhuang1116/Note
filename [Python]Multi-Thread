@@ -1,0 +1,25 @@
+# Container - create and start a container
+
+>[參考連結](https://docs.docker.com/engine/reference/commandline/create/)
+
+1. `threading.active_count()`
+
+查看目前多少線程
+
+2. `threading.enumerate()`
+
+目前使用線程的資訊
+
+3. `threading.current_thread().name`
+
+查看你在哪個執行緒中
+
+4. `threading.Thread(target=function,name='線程名字',args=參數)`
+
+5. `.start() `
+
+開始執行線程
+
+6. `.join()`
+
+主程式進入暫停 等待執行緒執行完畢
