@@ -13,7 +13,9 @@
 2. 建立Setup.py
 
 `from distutils.core import setup 
+
 from Cython.Build import cythonize 
+
 setup(ext_modules = cythonize("hello.py"))`
 
 3. 設定環境變數(VS2010 Compiler): `SET VS90COMNTOOLS=%VS100COMNTOOLS%`
@@ -21,6 +23,7 @@ setup(ext_modules = cythonize("hello.py"))`
 4. 執行 `python setup.py build_ext --inplace`
 
 4. 在檔案中引用 
-   `import py2c
-    py2c.test(6)`
+   `import py2c 
+   
+   py2c.test(6)`
 
